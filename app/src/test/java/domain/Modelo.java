@@ -1,9 +1,15 @@
 package domain;
+import com.google.gson.annotations.SerializedName;
 
 public class Modelo {
+
+    @SerializedName("userId")
     private Integer userId;
+    @SerializedName("id")
     private Integer id;
+    @SerializedName("title")
     private String title;
+    @SerializedName("body")
     private String body;
 
     public Modelo(){
