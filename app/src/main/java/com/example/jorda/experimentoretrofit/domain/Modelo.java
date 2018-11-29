@@ -1,18 +1,15 @@
-package domain;
+package com.example.jorda.experimentoretrofit.domain;
+
 import com.google.gson.annotations.SerializedName;
 
 public class Modelo {
 
-    @SerializedName("userId")
     private Integer userId;
-    @SerializedName("id")
     private Integer id;
-    @SerializedName("title")
     private String title;
-    @SerializedName("body")
     private String body;
 
-    public Modelo(){
+    public Modelo() {
     }
 
     public Modelo(Integer userId, Integer id, String title, String body) {
